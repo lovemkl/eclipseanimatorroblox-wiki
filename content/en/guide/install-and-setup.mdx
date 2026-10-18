@@ -1,0 +1,54 @@
+export const metadata = {
+  title: "Eclipse Animator Install and Setup",
+  description: "From claim to first rig — installing Eclipse Animator in Roblox Studio, the interface tour, and the first-session settings worth checking.",
+  category: "guide",
+  date: "2026-10-16",
+};
+
+Installing the Eclipse Animator Roblox plugin is the easy part of the journey — one click from the Creator Store and Studio does the rest. The setup that follows is where animators either build good habits or inherit confusing ones. This page walks the whole arc: the install itself, the interface tour that makes every later tutorial easier, loading your first rig the right way, and the small first-session settings that quietly determine whether your first week with the Eclipse Animator Roblox workflow feels smooth or stubborn.
+
+## The Install, Start to Finish
+
+The plugin distributes through the Roblox Creator Store — the platform's official asset marketplace — which makes the install as reliable as Roblox infrastructure allows. The flow: open the plugin's Creator Store page (reachable from the asset listing at create.roblox.com), press Get, and confirm. That is the entire ceremony. The plugin lands in your inventory, and the next time you open a place in Roblox Studio, it appears in the Plugins toolbox alongside your other tools.
+
+Three practical notes for install day. First, the obvious-but-forgotten: Studio needs a restart or a toolbox refresh before a just-acquired plugin shows up — if the plugin is missing, close and reopen Studio before assuming anything went wrong. Second, claimed copies and purchased copies install identically; the account-level price you paid (or didn't) has no bearing on the mechanics. Third, if you maintain Studio on multiple machines, you do not reinstall — the Eclipse Animator Roblox plugin follows your account; sign in on the second machine and it is in your toolbox there too. The claim guide covers the account mechanics in depth if the pricing side is your question.
+
+## The Interface Tour
+
+Spend ten minutes learning where things live before you animate, and every subsequent hour pays interest. The Eclipse Animator Roblox interface follows its Blender lineage, which means it is organized around the timeline as the center of gravity:
+
+**The timeline** is the spine — keyframes live here, tracks are stacked vertically, and playback controls let you scrub your animation like a video editor. If you have animated in any serious tool, this will feel like coming home; if Studio's built-in editor is your only prior experience, expect more capability and more initial density, both in equal measure.
+
+**The viewport interaction** is where the workflow departs from the built-in editor's. Rather than rotating joints through property panels, you manipulate your rig directly in the 3D viewport — grab a hand, pose it, and the keyframe follows. This direct-manipulation style is the Blender inheritance, and it is the reason the plugin's enthusiasts talk about "feel": posing becomes sculpting rather than form-filling.
+
+**The IK toggle** — covered fully on the features page — switches limb solving on and off per part. Off, you pose joints individually, parent-child style. On, you drag the hand and the elbow and shoulder solve to follow. The toggle's home in the interface is worth finding on day one, because switching between the two modes mid-animation is the core expressive technique the tool offers.
+
+**Keyframe management** lives in the timeline's context — adding, copying, and easing keys are all timeline operations, and the shortcuts you build here are the ones that compound. The beginner tutorial turns this tour into a hands-on walk cycle; this page's job is only the geography.
+
+## Loading Your First Rig
+
+The plugin animates rigs, and Studio offers several ways to end up with one in front of you. The right first rig: a standard humanoid rig — the R15 or R6 template avatar dropped into your place. It has the joints the community's tutorials assume, the proportions that make walk cycles readable, and the simplicity that keeps your first session about the tool rather than the rig.
+
+Drop the rig into your place, select it, and activate the Eclipse Animator Roblox plugin from the toolbox. The plugin binds to the selected rig and presents its tracks. From this bound state, everything in the interface tour becomes actionable: pose in the viewport, watch keys appear on the timeline, toggle IK and feel the difference in how the limbs respond. If the plugin does not bind to your selection, the reliable fix is the oldest one in Studio — deselect, reselect, and re-activate; binding is selection-based, and a stale selection is the usual culprit.
+
+One habit worth forming on rig one: name your rigs before animating them. Multi-rig scenes later — two characters in a cutscene, an NPC crowd — live and die by clean naming, and the discipline costs nothing to start and everything to retrofit.
+
+## First-Session Settings Worth Checking
+
+The plugin ships with sensible defaults, and this section is deliberately short because the default path is the right path for most animators. Two things merit a first-session look. **Playback rate** — confirm the timeline's playback speed matches your intent before judging any animation; a half-speed preview has sent many animators chasing "sluggishness" that was a setting. **Autosave cadence** — Studio's autosave covers your place file, but your animation work-in-progress deserves a manual save habit; the frequency is yours to choose, and choosing it once, deliberately, beats never choosing it.
+
+What you should not do in session one is exhaustively configure. The Eclipse Animator Roblox default experience is well-considered — IK toggles off until you want it, a timeline configured the way animators expect, an interface that reveals depth as you reach for it. Configuration tourism is a real first-session trap: settings explored out of context teach nothing, while settings changed after a felt need teach everything. Animate first, adjust second.
+
+## Troubleshooting the First Session
+
+The failures that actually occur in a first Eclipse Animator Roblox session are few and fixable, and naming them here turns panic into checklist. **The plugin does not appear after install** — restart Studio fully; the toolbox discovers newly acquired plugins at startup, and a running instance will not. **The plugin appears but will not bind to your rig** — the binding is selection-based: click the rig in the Explorer or viewport, then activate the plugin; a stale or empty selection is the cause nearly every time. **The timeline opens but shows no tracks** — your selection was a Model rather than the rig the plugin expects; expand the model in the Explorer and select the rig object itself. **Viewport dragging selects but does not pose** — you are in Studio's select mode rather than the plugin's pose interaction; activating the plugin's tool (the toolbox entry, not just the panel) switches the interaction mode.
+
+None of these are bugs; they are the seam between Studio's selection system and the plugin's interaction layer, and every Studio plugin lives at that seam. The Eclipse Animator Roblox setup is otherwise notably clean — one click in, one activation, one rig away from animating. Community coverage of the launch consistently remarked on how little configuration stands between install and first keyframe, and this guide's brevity on troubleshooting is the honest mirror of that: there is genuinely little to break.
+
+One preventive habit earns its paragraph: keep Studio updated. Plugins build against the current Studio, and the platform's update cadence occasionally shifts the interfaces plugins rely on; a Studio version several releases behind is the source of mysteries that no amount of plugin-side troubleshooting solves. The built-in auto-update covers this by default, which is why it stays on by default.
+
+## Your First Hour, Structured
+
+Concretely, for the animator starting tonight: install (five minutes), interface tour (ten), first rig loaded and bound (five), then the beginner tutorial's walk cycle from this wiki — a complete first animation in a single sitting, built to exercise the viewport posing, the timeline, and the IK toggle in sequence. After the walk cycle, animate something small of your own: a wave, a jump, a look-around. The point of the second exercise is ownership — the moment the tool stops being a tutorial and starts being yours.
+
+The Eclipse Animator Roblox plugin rewards this early structure disproportionately, because its depth is real: unparenting, multi-rig scenes, and live-editing choreography are all later chapters that assume the basics are muscle memory. Every feature page on this wiki builds on this one. Take the hour, build the base, and the rest of the tool arrives at the pace you ask for it — which is, in the end, the entire promise of the Blender-style workflow the plugin inherits: capability that scales with curiosity, from a first walk cycle to whatever you imagine after it.

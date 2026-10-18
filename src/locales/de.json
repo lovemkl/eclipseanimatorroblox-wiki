@@ -1,0 +1,244 @@
+{
+  "site": {
+    "name": "Eclipse Animator Wiki",
+    "shortName": "Eclipse Animator",
+    "tagline": "Fan-Wiki",
+    "description": "Fan-Wiki zu Eclipse Animator, dem Roblox-Studio-Animationsplugin von riftkuro und seven — kostenlos sichern, Installation, IK/FK und Blender-Rig-Import, Moon-Animator-Vergleich und Tutorials.",
+    "legalNotice": "Unabhängige Fan-Wiki. Nicht mit den Eclipse-Animator-Entwicklern oder Roblox Corporation verbunden."
+  },
+  "nav": {
+    "guides": "Guides",
+    "features": "Features",
+    "comparisons": "Vergleiche",
+    "faq": "FAQ",
+    "home": "Start",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln"
+  },
+  "home": {
+    "meta": {
+      "title": "Eclipse Animator: Das Wiki zum Roblox-Studio-Plugin",
+      "description": "Eclipse Animator, das Roblox-Studio-Animationsplugin von riftkuro und seven — gratis sichern, installieren, IK und Blender-Import meistern, mit Moon Animator vergleichen."
+    },
+    "hero": {
+      "eyebrow": "Fan-Wiki",
+      "title": "Eclipse Animator",
+      "description": "Eclipse Animator ist das neue Roblox-Studio-Animationsplugin, inspiriert von Blender und Moon Animator — inverse Kinematik, Unparenting, Live-Bearbeitung und Unterstützung jedes Roblox-Animationstyps, gestartet als Flaggschiff-Alternative zu Moon Animator. Für ein begrenztes Startfenster kannst du es kostenlos sichern und für immer behalten, bevor es kostenpflichtig wird. Dieses Wiki deckt die ganze Eclipse Animator Roblox Geschichte ab: das Gratis-Sicherungs-Fenster, die Installation, den IK-Workflow und den Vergleich mit Moon Animator und dem eingebauten Studio-Editor.",
+      "primaryCta": "Komplette Guide lesen",
+      "secondaryCta": "Offizielles Tutorial ansehen",
+      "tertiaryCta": "Alle Guides",
+      "stats": ["Begrenztes Gratis-Fenster", "Inverse Kinematik", "Live-Bearbeitung", "Moon-Animator-Alternative"]
+    },
+    "updates": {
+      "title": "Frisch vom Plugin",
+      "browse": "Alle Guides ansehen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Animieren in vier Schritten",
+      "title": "Vom Sichern zur ersten Animation",
+      "cards": [
+        { "number": "1", "title": "Gratis sichern", "description": "Eclipse Animator Roblox startete mit einem begrenzten Gratis-Fenster vor der Paywall — der Guide erklärt, wie das Sichern das Plugin dauerhaft an dein Konto bindet." },
+        { "number": "2", "title": "Installieren & einrichten", "description": "Ein Klick vom Roblox Creator Store ins Studio — der Setup-Guide deckt Installation, Interface und das erste Rig ab." },
+        { "number": "3", "title": "Workflow lernen", "description": "Keyframes, die Timeline und der IK-Schalter — das Anfänger-Tutorial begleitet eine komplette erste Animation auf die Eclipse-Art." },
+        { "number": "4", "title": "Über die Basics hinaus", "description": "Unparenting, Live-Bearbeitung und Multi-Rig-Szenen — die Feature-Seiten zeigen, was Eclipse Animator Roblox kann und der eingebaute Editor nicht." }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Diese Woche am häufigsten gelesen",
+      "title": "Im Trend",
+      "quickLinks": ["Gratis sichern", "IK", "Moon Animator", "Tutorial"],
+      "cards": [
+        { "title": "Eclipse Animator Roblox Plugin Guide", "description": "Die komplette Orientierung — was das Plugin ist, warum die Community ausbrach, und alles vor dem Sichern." },
+        { "title": "Gratis bekommen", "description": "Das begrenzte Gratis-Fenster erklärt — wie Sichern funktioniert, warum es dauerhaft ist und was danach passiert." },
+        { "title": "Anfänger-Tutorial", "description": "Deine erste Animation von Anfang bis Ende — Keyframes, Timeline und IK in einer Sitzung." },
+        { "title": "vs Moon Animator", "description": "Der Vergleich, über den die Community streitet — Workflow, Features und Preis, ehrlich aufbereitet." }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Eclipse Animator?",
+      "paragraphs": [
+        "Eclipse Animator ist ein Roblox-Studio-Animationsplugin, veröffentlicht im Oktober 2026, inspiriert vom Blender-Workflow und positioniert als Flaggschiff-Alternative zu Moon Animator, nachdem dieses kostenpflichtig wurde. Der Funktionsumfang liest sich wie eine Community-Wunschliste: inverse Kinematik per Schalter, Unparenting für komplexe Rigs, Live-Bearbeitung während die Timeline läuft und Unterstützung jedes Roblox-Animationstyps.",
+        "Der Start wurde in der Roblox-Dev-Community wegen des Preismodells zur Nachricht: kostenlos zu sichern für ein begrenztes Fenster — etwa drei Tage — danach wird das Plugin rein kostenpflichtig. Gesicherte Kopien bleiben dauerhaft an dein Konto gebunden, was die Startwoche in einen Ansturm verwandelte. Dieses Wiki dokumentiert das Eclipse Animator Roblox Plugin seit dem Launch — die Sicherungs-Mechanik, den Workflow, die Vergleiche."
+      ],
+      "stats": [
+        { "label": "Typ", "value": "Studio-Plugin" },
+        { "label": "Inspiration", "value": "Blender" },
+        { "label": "Highlight", "value": "IK-Schalter" },
+        { "label": "Bearbeitung", "value": "Live" },
+        { "label": "Startpreis", "value": "Gratis sichern" },
+        { "label": "Status", "value": "Bezahlt nach Fenster" }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Alles zum Plugin, kartiert",
+      "description": "Guides, Features, Vergleiche und Antworten — das komplette Toolkit.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Eclipse Animator Roblox Plugin Guide",
+          "description": "Die komplette Orientierung.",
+          "href": "/guide/eclipse-animator-roblox-plugin-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Was das Plugin ist und wer es baute" },
+            { "label": "2", "detail": "Warum der Start einen Ansturm auslöste" },
+            { "label": "3", "detail": "Was Gratis-Sichern wirklich bedeutet" }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Gratis bekommen",
+          "description": "Das Sicherungsfenster, erklärt.",
+          "href": "/guide/how-to-get-eclipse-animator-free",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Wie das begrenzte Gratis-Sichern funktioniert" },
+            { "label": "2", "detail": "Warum gesicherte Kopien deine bleiben" },
+            { "label": "3", "detail": "Was sich ändert, wenn es kostenpflichtig wird" }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Installation & Setup",
+          "description": "Vom Sichern zum ersten Rig.",
+          "href": "/guide/install-and-setup",
+          "displayType": "tier-grid",
+          "highlights": [
+            { "label": "S", "detail": "Die Creator-Store-Installation in einem Klick" },
+            { "label": "A", "detail": "Der Interface-Rundgang — wo alles wohnt" },
+            { "label": "B", "detail": "Das erste Rig richtig laden" },
+            { "label": "C", "detail": "Erst-Sitzungs-Einstellungen, die sich lohnen" }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Anfänger-Tutorial",
+          "description": "Deine erste Animation.",
+          "href": "/guide/beginners-tutorial",
+          "displayType": "code-cards",
+          "highlights": [
+            { "label": "Walk Cycle", "detail": "Eine komplette erste Animation — Keyframes, Timeline und der IK-Schalter in einer Sitzung", "badge": "Praxis" }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "IK & Rigging",
+          "description": "Das Hauptfeature.",
+          "href": "/features/ik-and-rigging",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🦴", "detail": "Inverse Kinematik per Schalter" },
+            { "label": "🔗", "detail": "Unparenting für komplexe Rigs" },
+            { "label": "⚡", "detail": "Live-Bearbeitung während die Timeline läuft" }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Animationstypen",
+          "description": "Was es animieren kann.",
+          "href": "/features/animation-types",
+          "displayType": "tier-grid",
+          "highlights": [
+            { "label": "S", "detail": "Rigged-Character-Animation, voll unterstützt" },
+            { "label": "A", "detail": "Jeder Roblox-Animationstyp via Plugin" },
+            { "label": "B", "detail": "Cutscene- und Multi-Rig-Workflows" },
+            { "label": "C", "detail": "Die Edge-Cases, die man kennen sollte" }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "vs Moon Animator",
+          "description": "Der Streit, beigelegt.",
+          "href": "/comparisons/vs-moon-animator",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Workflow — Blender-inspiriert gegen vertraut" },
+            { "label": "2", "detail": "Features und IK ehrlich verglichen" },
+            { "label": "3", "detail": "Preis — Gratis-Sichern gegen Bezahl-Stufen" }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "vs eingebauter Editor",
+          "description": "Braucht es überhaupt ein Plugin?",
+          "href": "/comparisons/vs-builtin-editor",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🧰", "detail": "Was Studios Animation Editor gratis kann" },
+            { "label": "🚀", "detail": "Was ein Plugin-Workflow hinzufügt" },
+            { "label": "⚖️", "detail": "Welches Werkzeug für welche Aufgabe" }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zum Eclipse Animator Roblox Plugin.",
+      "items": [
+        { "question": "Was ist Eclipse Animator?", "answer": "Ein Roblox-Studio-Animationsplugin von Oktober 2026, inspiriert von Blender und Moon Animator. Es bringt inverse Kinematik per Schalter, Unparenting, Live-Bearbeitung und Unterstützung jedes Roblox-Animationstyps ins Studio — positioniert als Flaggschiff-Alternative zu Moon Animator." },
+        { "question": "Ist Eclipse Animator kostenlos?", "answer": "Es startete mit einem begrenzten Gratis-Fenster — etwa drei Tage — in dem Sichern das Plugin dauerhaft an dein Roblox-Konto bindet. Nach dem Fenster wird das Plugin rein kostenpflichtig. Wer rechtzeitig gesichert hat, behält es für immer gratis." },
+        { "question": "Wie bekomme ich Eclipse Animator?", "answer": "Über den Roblox Creator Store: Die Asset-Seite des Plugins liegt auf create.roblox.com, die Installation ist ein Klick ins Roblox Studio. Der Installations-Guide begleitet den ganzen Ablauf inklusive der Bedeutung des Sicherns für dein Konto." },
+        { "question": "Ist es besser als Moon Animator?", "answer": "Es hängt davon ab, was dir wichtig ist. Eclipse Animator bringt einen Blender-inspirierten Workflow, einen IK-Schalter und Live-Bearbeitung, die Moon Animator fehlen; Moon Animator bringt Jahre an Vertrautheit und Community-Tutorials. Die Vergleichsseite legt Workflow, Features und Preis ehrlich auseinander." }
+      ]
+    },
+    "finalCta": {
+      "title": "Das Sicherungsfenster ist der Moment.",
+      "description": "Die Sicherungs-Mechanik, die Installation, der IK-Workflow und die Vergleiche — alles zum Eclipse Animator Roblox Plugin, seit dem Launchtag.",
+      "primary": "Komplette Guide lesen",
+      "secondary": "Die Creator-Store-Seite"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Sicherungs-Tracker",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Guides ansehen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Hilfe nötig?",
+    "relatedReading": "Weiterführende Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Weiterlesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Start",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Bald wieder vorbeischauen!"
+  },
+  "footer": {
+    "aboutTitle": "Eclipse Animator Wiki",
+    "about": "Eclipse Animator Wiki ist eine unabhängige Fan-Wiki zum Roblox-Studio-Animationsplugin — das Gratis-Sicherungsfenster, die Installation, der IK-Workflow und die Vergleiche, aus der Nutzung geschrieben und aktualisiert, sobald sich das Plugin weiterentwickelt.",
+    "quickLinks": "Quicklinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Eclipse Animator Wiki. Nicht mit den Eclipse-Animator-Entwicklern oder Roblox Corporation verbunden. Roblox ist eine Marke der Roblox Corporation.",
+    "description": "Die Eclipse Animator Wiki — sichern, installieren, animieren und vergleichen das neue Studio-Plugin.",
+    "playGame": "Creator-Store-Seite",
+    "officialDiscord": "Community",
+    "officialYoutube": "Offizielles Tutorial",
+    "epicStore": "Creator Store",
+    "beginnerGuide": "Komplettguide",
+    "mapGuides": "Gratis bekommen",
+    "weaponsGuides": "vs Moon Animator",
+    "buildGuide": "Anfänger-Tutorial",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "guide": {
+    "overviewTitle": "Guides",
+    "overviewDescription": "Alle Eclipse Animator Roblox Guides — die komplette Orientierung, das Gratis-Sichern, das Setup und deine erste Animation."
+  },
+  "features": {
+    "overviewTitle": "Features",
+    "overviewDescription": "Die Hauptfeatures des Plugins — der IK-Schalter, Unparenting, Live-Bearbeitung und Animationstyp-Unterstützung."
+  },
+  "comparisons": {
+    "overviewTitle": "Vergleiche",
+    "overviewDescription": "Eclipse Animator gegen die Alternativen — Moon Animator und Studios eingebauten Animation Editor."
+  },
+  "faq": {
+    "overviewTitle": "FAQ",
+    "overviewDescription": "Klare Antworten zum Plugin — das Sicherungsfenster, der Preis, der Workflow und wo die Grenzen sind."
+  }
+}

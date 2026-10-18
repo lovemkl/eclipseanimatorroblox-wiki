@@ -1,0 +1,13 @@
+{
+  "name": "Eclipse Animator Wiki",
+  "short_name": "Eclipse Animator",
+  "description": "Fan wiki for Eclipse Animator, the Roblox Studio animation plugin by riftkuro and seven — claim it free before paid-only, install and setup, IK/FK switching, Blender rig import, Moon Animator comparison and tutorials.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0a14",
+  "theme_color": "#d98a3f",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,25 @@
+# Eclipse Animator Wiki
+
+> Fan wiki for Eclipse Animator, the Roblox Studio animation plugin by riftkuro and seven — claim it free before paid-only, install and setup, IK/FK and Blender rig import, Moon Animator comparison and tutorials.
+
+Site: https://eclipseanimatorroblox.wiki
+
+## Guides
+
+- Eclipse Animator: The Complete Guide — the full orientation: https://eclipseanimatorroblox.wiki/guide/eclipse-animator
+- Eclipse Animator Roblox Plugin Guide — the plugin story: https://eclipseanimatorroblox.wiki/guide/eclipse-animator-roblox-plugin-guide
+- How to Get It Free — the limited claim window: https://eclipseanimatorroblox.wiki/guide/how-to-get-eclipse-animator-free
+- Install & Setup — from claim to first rig: https://eclipseanimatorroblox.wiki/guide/install-and-setup
+- Beginner Tutorial — your first animation: https://eclipseanimatorroblox.wiki/guide/beginners-tutorial
+
+## Features
+
+- IK & Rigging — inverse kinematics, unparenting, live editing: https://eclipseanimatorroblox.wiki/features/ik-and-rigging
+- Animation Types — what the plugin can animate: https://eclipseanimatorroblox.wiki/features/animation-types
+
+## Comparisons
+
+- vs Moon Animator — the comparison settled: https://eclipseanimatorroblox.wiki/comparisons/vs-moon-animator
+- vs Built-In Editor — do you need a plugin: https://eclipseanimatorroblox.wiki/comparisons/vs-builtin-editor
+
+Independent fan wiki. Not affiliated with the Eclipse Animator developers or Roblox Corporation.

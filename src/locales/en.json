@@ -1,0 +1,244 @@
+{
+  "site": {
+    "name": "Eclipse Animator Wiki",
+    "shortName": "Eclipse Animator",
+    "tagline": "Fan-Made Wiki",
+    "description": "Fan wiki for Eclipse Animator, the Roblox Studio animation plugin by riftkuro and seven — claim it free before paid-only, install and setup, IK/FK and Blender rig import, Moon Animator comparison and tutorials.",
+    "legalNotice": "Independent fan wiki. Not affiliated with the Eclipse Animator developers or Roblox Corporation."
+  },
+  "nav": {
+    "guides": "Guides",
+    "features": "Features",
+    "comparisons": "Comparisons",
+    "faq": "FAQ",
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
+  "home": {
+    "meta": {
+      "title": "Eclipse Animator: Roblox Plugin Wiki — Claim It Free",
+      "description": "Eclipse Animator is the Roblox Studio animation plugin by riftkuro and seven — claim it free, install, master IK and Blender rig import, compare Moon Animator."
+    },
+    "hero": {
+      "eyebrow": "Fan-Made Wiki",
+      "title": "Eclipse Animator",
+      "description": "Eclipse Animator is the new Roblox Studio animation plugin inspired by Blender and Moon Animator — inverse kinematics, unparenting, live editing and support for any Roblox animation type, launched as a flagship free alternative to Moon Animator. For a limited launch window you can claim it free and keep it forever before it becomes paid-only. This wiki covers the whole Eclipse Animator Roblox story: the free-claim window, the install and setup, the IK animation workflow, and how it stacks against Moon Animator and Studio's built-in editor.",
+      "primaryCta": "Read the Complete Guide",
+      "secondaryCta": "Watch the Official Tutorial",
+      "tertiaryCta": "All Guides",
+      "stats": ["Limited Free-Claim Window", "Inverse Kinematics", "Live Editing", "Moon Animator Alternative"]
+    },
+    "updates": {
+      "title": "Fresh From the Plugin",
+      "browse": "Browse All Guides",
+      "viewAll": "View All"
+    },
+    "start": {
+      "eyebrow": "Animate In Four Steps",
+      "title": "From Claim to First Animation",
+      "cards": [
+        { "number": "1", "title": "Claim It Free", "description": "Eclipse Animator Roblox launched with a limited free-claim window before going paid-only — the claim guide explains how claiming ties the plugin to your account permanently." },
+        { "number": "2", "title": "Install and Setup", "description": "One click from the Roblox Creator Store into Studio — the setup guide covers the install, the interface and the first rig." },
+        { "number": "3", "title": "Learn the Workflow", "description": "Keyframes, the timeline and the IK toggle — the beginner tutorial walks a complete first animation the Eclipse way." },
+        { "number": "4", "title": "Go Beyond Basics", "description": "Unparenting, live editing and multi-rig scenes — the features pages cover what Eclipse Animator Roblox does that the built-in editor doesn't." }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Most-Read This Week",
+      "title": "Trending Now",
+      "quickLinks": ["Free Claim", "IK", "Moon Animator", "Tutorial"],
+      "cards": [
+        { "title": "Eclipse Animator Roblox Plugin Guide", "description": "The complete orientation — what the plugin is, why the community erupted, and everything before you claim." },
+        { "title": "How to Get It Free", "description": "The limited free-claim window explained — how claiming works, why it's permanent, and what happens after." },
+        { "title": "Beginner Tutorial", "description": "Your first animation, start to finish — keyframes, the timeline and the IK toggle in one sitting." },
+        { "title": "vs Moon Animator", "description": "The comparison the community is arguing about — workflow, features and price, honestly laid out." }
+      ]
+    },
+    "aboutGame": {
+      "title": "What Is Eclipse Animator?",
+      "paragraphs": [
+        "Eclipse Animator is a Roblox Studio animation plugin released in October 2026, inspired by Blender's animation workflow and positioned as the flagship free alternative to Moon Animator after that plugin went paid. Its feature set reads like a community wish-list: inverse kinematics with a toggle, unparenting for complex rigs, live editing while the timeline plays, and support for any Roblox animation type — capabilities that previously demanded paid tools or awkward workarounds.",
+        "The launch made headlines in the Roblox dev community for its pricing model: free to claim for a limited window — roughly three days — after which the plugin becomes paid-only. Claimed copies stay tied to your account permanently, which turned the launch week into a stampede and the question everyone asks now: did you claim it in time? This wiki documents the Eclipse Animator Roblox plugin from launch — the claim mechanics, the workflow, the comparisons — for the people claiming, the people who missed it, and the people deciding whether to buy."
+      ],
+      "stats": [
+        { "label": "Type", "value": "Studio Plugin" },
+        { "label": "Inspired By", "value": "Blender" },
+        { "label": "Headline", "value": "IK Toggle" },
+        { "label": "Editing", "value": "Live" },
+        { "label": "Launch Price", "value": "Free Claim" },
+        { "label": "Status", "value": "Paid After Window" }
+      ],
+      "cta": "Explore All Guides"
+    },
+    "explore": {
+      "title": "Everything About the Plugin, Mapped",
+      "description": "Guides, features, comparisons and answers — the complete toolkit.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Eclipse Animator Roblox Plugin Guide",
+          "description": "The complete orientation.",
+          "href": "/guide/eclipse-animator-roblox-plugin-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "What the plugin is and who made it" },
+            { "label": "2", "detail": "Why the launch caused a stampede" },
+            { "label": "3", "detail": "What claiming free really means" }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "How to Get It Free",
+          "description": "The claim window, explained.",
+          "href": "/guide/how-to-get-eclipse-animator-free",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "How the limited free claim works" },
+            { "label": "2", "detail": "Why claimed copies stay yours" },
+            { "label": "3", "detail": "What changes when it goes paid" }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Install & Setup",
+          "description": "From claim to first rig.",
+          "href": "/guide/install-and-setup",
+          "displayType": "tier-grid",
+          "highlights": [
+            { "label": "S", "detail": "The Creator Store install in one click" },
+            { "label": "A", "detail": "The interface tour — where everything lives" },
+            { "label": "B", "detail": "Loading your first rig the right way" },
+            { "label": "C", "detail": "The first-session settings worth checking" }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Beginner Tutorial",
+          "description": "Your first animation.",
+          "href": "/guide/beginners-tutorial",
+          "displayType": "code-cards",
+          "highlights": [
+            { "label": "Walk Cycle", "detail": "A complete first animation — keyframes, timeline and the IK toggle in one sitting", "badge": "Hands-On" }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "IK & Rigging",
+          "description": "The headline feature.",
+          "href": "/features/ik-and-rigging",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🦴", "detail": "Inverse kinematics with a toggle" },
+            { "label": "🔗", "detail": "Unparenting for complex rigs" },
+            { "label": "⚡", "detail": "Live editing while the timeline plays" }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Animation Types",
+          "description": "What it can animate.",
+          "href": "/features/animation-types",
+          "displayType": "tier-grid",
+          "highlights": [
+            { "label": "S", "detail": "Rigged character animation, fully supported" },
+            { "label": "A", "detail": "Any Roblox animation type via the plugin" },
+            { "label": "B", "detail": "Cutscene and multi-rig workflows" },
+            { "label": "C", "detail": "The edge cases to know about" }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "vs Moon Animator",
+          "description": "The argument, settled.",
+          "href": "/comparisons/vs-moon-animator",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Workflow — Blender-inspired against familiar" },
+            { "label": "2", "detail": "Features and IK compared honestly" },
+            { "label": "3", "detail": "Price — free claim against paid tiers" }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "vs Built-In Editor",
+          "description": "Do you even need a plugin?",
+          "href": "/comparisons/vs-builtin-editor",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🧰", "detail": "What Studio's Animation Editor does free" },
+            { "label": "🚀", "detail": "What a plugin workflow adds" },
+            { "label": "⚖️", "detail": "Which tool for which job" }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers to the most common questions about the Eclipse Animator Roblox plugin.",
+      "items": [
+        { "question": "What is Eclipse Animator?", "answer": "A Roblox Studio animation plugin released in October 2026, inspired by Blender and Moon Animator. It brings inverse kinematics with a toggle, unparenting, live editing and support for any Roblox animation type to Studio, positioned as the flagship free alternative to Moon Animator." },
+        { "question": "Is Eclipse Animator free?", "answer": "It launched with a limited free-claim window — roughly three days — during which claiming the plugin ties it to your Roblox account permanently. After the window closes, the plugin becomes paid-only. If you claimed during the window, yours stays free forever." },
+        { "question": "How do I get Eclipse Animator?", "answer": "Through the Roblox Creator Store: the plugin's asset page lives at create.roblox.com, and installing is one click into Roblox Studio. The install guide walks the whole flow, including what claiming means for your account." },
+        { "question": "Is it better than Moon Animator?", "answer": "It depends on what you value. Eclipse Animator brings a Blender-inspired workflow, an IK toggle and live editing that Moon Animator lacks; Moon Animator brings years of community familiarity and tutorials. The comparison page lays out workflow, features and price honestly." }
+      ]
+    },
+    "finalCta": {
+      "title": "The claim window is the moment.",
+      "description": "The claim mechanics, the install, the IK workflow and the comparisons — everything about the Eclipse Animator Roblox plugin, from launch day.",
+      "primary": "Read the Complete Guide",
+      "secondary": "The Creator Store Page"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki Navigation",
+    "activeCodes": "Claim Tracker",
+    "updated": "Updated",
+    "viewAllCodes": "View all guides",
+    "inThisSection": "In this section",
+    "tableOfContents": "Table of Contents",
+    "nextSteps": "Next Steps",
+    "needHelp": "Need Help?",
+    "relatedReading": "Related Reading",
+    "relatedGuides": "Related Guides",
+    "readMore": "Read more",
+    "officialMedia": "Official media",
+    "home": "Home",
+    "noGuidesAvailable": "No guides available yet. Check back soon!"
+  },
+  "footer": {
+    "aboutTitle": "Eclipse Animator Wiki",
+    "about": "Eclipse Animator Wiki is an independent fan-built wiki covering the Roblox Studio animation plugin — the free-claim window, the install and setup, the IK workflow and the comparisons, written from use and updated as the plugin evolves.",
+    "quickLinks": "Quick Links",
+    "guides": "Guides",
+    "legal": "Legal",
+    "copyright": "2026 Eclipse Animator Wiki. Not affiliated with the Eclipse Animator developers or Roblox Corporation. Roblox is a trademark of Roblox Corporation.",
+    "description": "The Eclipse Animator Roblox wiki — claim, install, animate and compare the new Studio plugin.",
+    "playGame": "Creator Store Page",
+    "officialDiscord": "Community",
+    "officialYoutube": "Official Tutorial",
+    "epicStore": "Creator Store",
+    "beginnerGuide": "Complete Guide",
+    "mapGuides": "Get It Free",
+    "weaponsGuides": "vs Moon Animator",
+    "buildGuide": "Beginner Tutorial",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "Guides",
+    "overviewDescription": "Every Eclipse Animator Roblox guide — the complete orientation, the free claim, the setup and your first animation."
+  },
+  "features": {
+    "overviewTitle": "Features",
+    "overviewDescription": "The plugin's headline features — the IK toggle, unparenting, live editing and animation type support."
+  },
+  "comparisons": {
+    "overviewTitle": "Comparisons",
+    "overviewDescription": "Eclipse Animator against the alternatives — Moon Animator and Studio's built-in Animation Editor."
+  },
+  "faq": {
+    "overviewTitle": "FAQ",
+    "overviewDescription": "Straight answers about the plugin — the claim window, the price, the workflow and where the lines are."
+  }
+}

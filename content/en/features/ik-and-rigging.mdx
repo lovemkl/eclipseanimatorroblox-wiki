@@ -1,0 +1,38 @@
+export const metadata = {
+  title: "IK and Rigging in Eclipse Animator",
+  description: "The inverse kinematics toggle, unparenting and live editing — the rigging features that make the Eclipse Animator Roblox workflow different.",
+  category: "features",
+  date: "2026-10-16",
+};
+
+Three rigging features define the Eclipse Animator Roblox plugin's identity: the inverse kinematics toggle, unparenting, and live editing. They sound like spec-sheet entries, and they are usually explained like spec-sheet entries, but each one changes a specific pain that Roblox animators know by name. This page explains what each does, why it exists, and how working animators use them in combination — the practical theory behind the tool, with the beginner tutorial as its hands-on counterpart.
+
+## Inverse Kinematics: The Toggle That Changes Posing
+
+Inverse kinematics — IK — inverts the ordinary logic of posing a rigged figure. Ordinary posing (technically forward kinematics) rotates joints from the root outward: rotate the shoulder, then the elbow, then the wrist, and the hand ends up wherever those three decisions put it. You control causes and hope for effects. IK flips it: you drag the hand — the effect — and the solver computes the shoulder, elbow and wrist rotations that deliver it. The puppet-string metaphor is the standard one because it is accurate: with IK on, the limb follows the endpoint like a marionette.
+
+Why this matters in Studio specifically is a question of what was missing. Roblox Studio's built-in Animation Editor poses rigs forward-kinematically through joint rotations — capable, but slow for natural limb arcs, and hostile to the animators who arrived from Blender or Maya expecting to drag limbs. The Eclipse Animator Roblox plugin's headline design decision was to make IK a toggle rather than a mode: per-limb, switchable mid-animation, mixed freely with forward posing. Animate the torso forward, toggle IK for the reaching arm, toggle back for the fingers. That fluidity — choosing cause-control or effect-control moment to moment — is the feature's real depth, and it is why the toggle's location in the interface was worth learning on day one.
+
+The honest limits: IK solves limbs beautifully, but full-body IK (feet planted while the body moves, for instance) is a harder problem class, and animators combining the plugin's limb IK with manual posing for the rest still produce the strongest results. The system rewards understanding over blind reliance — toggle IK where dragging is natural, pose forward where precision matters, and the workflow becomes genuinely faster than either pure approach.
+
+## Unparenting: Rigging Freedom for Awkward Hierarchies
+
+The quiet feature in the list, and the one intermediate animators thank the tool for. Rig hierarchies in Studio follow parent-child chains — the hand belongs to the forearm belongs to the elbow — and those chains encode assumptions. When an animation calls for something the chain fights — an accessory that should move independently, a prop welded to a hand that must detach its motion, a rig whose authored hierarchy doesn't match the motion's logic — the parent chain itself is the obstacle.
+
+Unparenting in the Eclipse Animator Roblox workflow detaches animation control from the hierarchy's assumptions: you animate the part independently of its parent chain, orchestrating motion the rig's author never encoded. The practical use cases cluster around cutscenes and prop work — a sword that must fly free of its wielder, a character grabbing another's arm where both limbs need independent keys, modular characters whose parts combine and separate. For animators who have fought hierarchy battles in other tools, the feature reads as respect; for animators new to the problem, the discovery usually arrives as relief.
+
+The feature's trade-off is bookkeeping: independence cuts both ways, and an unparented part no longer inherits the motions its parent would have carried it. The discipline that keeps multi-part scenes coherent is named organization — the setup guide's advice about naming rigs before animating is the beginner-level seed of exactly this practice.
+
+## Live Editing: Choreography While the Timeline Plays
+
+The third pillar sounds modest and is transformative. In most Studio animation workflows, editing a key means scrubbing to it, adjusting, scrubbing onward — a stop-motion relationship with your own timeline. Live editing in the Eclipse Animator Roblox plugin means the timeline can play while you manipulate: grab a limb mid-playback, adjust its arc as the animation runs, and feel the change in context rather than inspecting it frame by frame.
+
+The difference shows up in choreography — multi-character scenes, timing-dependent motion, anything where the feel of one element depends on the simultaneous motion of others. Animating a catch — hand meets thrown object — with live editing means adjusting the hand's arc while watching the object's flight land in it. Doing the same stop-motion means alternating between two timelines and trusting your interpolation. The craft difference compounds over a session: live-editing animators report finishing scenes in fewer passes, not because anything is automated, but because the feedback loop shortened from "scrub, change, scrub" to "watch, change."
+
+The feature also changes how the plugin feels, which matters more than benchmarks. A tool that responds while playing feels alive — closer to directing performers than to filling in forms. That feel is the Blender inheritance showing through, and it is the quality the launch-week coverage kept circling even when the reviewers could not name it precisely.
+
+## How the Three Combine
+
+The features are a system, and the system is the plugin's argument. IK solves the posing-speed problem. Unparenting solves the hierarchy-rigidity problem. Live editing solves the feedback-loop problem. Each addresses a specific, longstanding Studio animation pain; together they compose a workflow where an animator drags limbs to natural poses (IK), frees motion from rig assumptions where the scene demands it (unparenting), and refines everything in playing context (live editing). No single feature is unprecedented — the innovation is the assembly, delivered in a Studio plugin, at a price the community spent a launch week racing to claim.
+
+For the animators weighing this system against alternatives, the comparisons pages run the honest head-to-heads — against Moon Animator's mature but IK-less workflow, and against the built-in editor's capable but spartan one. This page's closing claim is narrower: these three features, used together, make the Eclipse Animator Roblox plugin feel like a modern animation tool inside Studio — and the feeling is the feature.

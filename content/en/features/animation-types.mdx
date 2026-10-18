@@ -1,0 +1,36 @@
+export const metadata = {
+  title: "Animation Types Eclipse Animator Supports",
+  description: "What the Eclipse Animator Roblox plugin can animate — rigged character animation, cutscene choreography, multi-rig scenes and the edge cases to know.",
+  category: "features",
+  date: "2026-10-16",
+};
+
+"Any Roblox animation type" is the phrase the Eclipse Animator Roblox launch used, and it is the kind of claim that deserves unpacking rather than repeating. Roblox animation spans several distinct needs — character rigs, cutscene motion, multi-character choreography, tween-style movement — and a plugin's real capability lives in which of those it handles gracefully versus technically. This page maps the plugin's coverage honestly: where it excels, where it is merely competent, and where the edge cases live.
+
+## Rigged Character Animation: The Core
+
+The center of the target is rigged humanoid animation — R15 and R6 character rigs doing what character rigs do: walk cycles, combat moves, emotes, gestures, death animations. This is the plugin's home ground and the domain every launch demo and early tutorial targeted. The full feature stack applies here: viewport posing for speed, the IK toggle for natural limb arcs, live editing for in-context refinement. If your animation work is "make characters move," the Eclipse Animator Roblox plugin is aimed at you first, and the coverage here is complete rather than partial.
+
+What "complete" means concretely: full joint access on standard rigs, per-limb keying, timing and easing control per track, and clean looping for cyclic motion. The beginner tutorial's walk cycle is the minimal proof; the ceiling is whatever your patience and the rig's articulation allow. Community content in the launch window demonstrated the range — combat sequences, dance choreography, narrative cutscenes — all on standard rigs with the stock workflow.
+
+## Multi-Rig Scenes and Cutscenes
+
+One rig is a character; two rigs are a conversation; a stage of rigs is a cutscene. Multi-rig work is where animation tools separate the casual from the serious, and it is where Moon Animator historically earned its reputation — the ability to choreograph several rigs on one timeline. The Eclipse Animator Roblox plugin carries this capability as a first-class concern: multiple rigs bound to the plugin's timeline, tracks stacked and grouped by rig, and the whole scene scrubbable and editable as one.
+
+The features that carry multi-rig work are exactly the ones the rigging page details. Live editing earns its keep here most visibly — adjusting one character's blocking while watching the partner's motion land against it. Unparenting handles the scenes where characters interact through props or contact — the sword-pass, the grab, the handshake — where strict hierarchies fight the choreography. And the timeline's per-rig organization is what keeps a four-character scene navigable rather than a wall of undifferentiated tracks. Animators migrating from Moon Animator for cutscene work report the transition feeling like the same job with better hands.
+
+## Tween-Style and Non-Rig Motion
+
+The quieter half of the claim: animation that is not character rigs. Objects that slide, doors that swing, platforms that rise — the tween-shaped motion that games use constantly. Studio's own TweenService handles this in code at runtime, but for choreographed sequences — cutscene cameras, scripted set pieces, cinematic moments — animators want this motion on the same timeline as the characters. The Eclipse Animator Roblox plugin supports animating parts and their properties on its timeline, which means a cutscene's door, spotlight and character can be keyed in one place, by one animator, in one pass.
+
+The honest calibration: for runtime gameplay motion, code-driven tweens remain the right tool — the plugin is an authoring environment, not a runtime system. The sweet spot is authored content: cutscenes, intros, trailers, showcase pieces — anywhere the motion is fixed and the craft standard is "directed" rather than "dynamic." The plugin's viewport-direct style extends naturally to this work too; grabbing a door and swinging it into position is the same grab gesture as posing an arm.
+
+## The Edge Cases, Named
+
+Honest coverage includes the borders. **Non-standard rigs** — custom creatures, vehicles with articulated parts, modular characters — animate well through the unparenting system, but every non-standard rig is a small research project; the community's rig-specific knowledge is still accreting. **Facial and fine-digit animation** — expressive faces, individual finger motion — is bounded by the rig's articulation; where the joints exist the plugin can drive them, where they don't no tool conjures them. **Very large scenes** — dozens of rigs on one timeline — are handled but demand the naming and organization discipline the setup guide seeds. None of these are failures; they are the frontier of "any animation type," and the plugin's early community is actively pushing each one.
+
+One more border worth naming precisely because the launch hype glossed it: "any Roblox animation type" means the platform's animation capabilities. The plugin is a master of what Studio's rigs and parts can express — it does not add expressive power the engine lacks. The realistic reading, and the one this wiki works from: the Eclipse Animator Roblox plugin removes tooling friction from animating what Roblox can animate, which turns out to be a much larger promise than it sounds like, because the friction was most of what stood between animators and their scenes.
+
+## The Short Version
+
+Characters, complete and first-class. Multi-rig cutscenes, capable and the historical Moon Animator strongpoint carried forward. Non-rig and tween-shaped motion, supported for authored content. Custom and exotic rigs, workable with growing community knowledge. That is the map — and the practical advice that falls out of it is simple: if your Roblox work involves making things move with craft, the plugin's coverage meets you somewhere, and the features page and comparisons tell you whether that somewhere justifies the install, the claim, or the purchase. For most animators reading this in launch season, the honest answer has already been given by their own download click.

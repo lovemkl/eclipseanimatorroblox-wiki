@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 250 20% 95%;
+    --foreground: 258 16% 12%;
+    --card: 250 16% 97%;
+    --card-foreground: 258 16% 12%;
+    --popover: 250 16% 97%;
+    --popover-foreground: 258 16% 12%;
+    --primary: 32 70% 40%;
+    --primary-foreground: 40 40% 97%;
+    --secondary: 250 12% 92%;
+    --secondary-foreground: 258 14% 18%;
+    --muted: 250 12% 91%;
+    --muted-foreground: 258 10% 40%;
+    --accent: 250 12% 89%;
+    --accent-foreground: 258 16% 12%;
+    --destructive: 352 82% 48%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 250 12% 83%;
+    --input: 250 12% 83%;
+    --ring: 32 70% 40%;
+    --radius: 0.375rem;
+    --nav-theme: 32 78% 44%;
+    --nav-theme-light: 32 78% 58%;
+    --chart-1: 32 78% 48%;
+    --chart-2: 258 60% 55%;
+    --chart-3: 200 30% 42%;
+    --chart-4: 150 25% 40%;
+    --chart-5: 0 0% 45%;
+  }
+
+  .dark {
+    --background: 258 24% 5%;
+    --foreground: 38 16% 88%;
+    --card: 258 22% 9%;
+    --card-foreground: 38 16% 88%;
+    --popover: 258 23% 8%;
+    --popover-foreground: 38 16% 88%;
+    --primary: 32 84% 56%;
+    --primary-foreground: 30 45% 8%;
+    --secondary: 258 18% 14%;
+    --secondary-foreground: 38 14% 86%;
+    --muted: 258 18% 14%;
+    --muted-foreground: 36 10% 64%;
+    --accent: 258 18% 17%;
+    --accent-foreground: 38 16% 88%;
+    --destructive: 0 74% 52%;
+    --destructive-foreground: 0 0% 96%;
+    --border: 254 16% 22%;
+    --input: 254 16% 22%;
+    --ring: 32 84% 52%;
+    --nav-theme: 32 86% 54%;
+    --nav-theme-light: 32 86% 66%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body { @apply bg-background text-foreground; }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 18% 12%, hsl(var(--nav-theme) / 0.12), transparent 32rem),
+      radial-gradient(circle at 85% 8%, hsl(218 60% 55% / 0.07), transparent 28rem);
+    z-index: -1;
+  }
+}
+
+@layer utilities {
+  .prose-invert { color: hsl(var(--muted-foreground)); }
+}
+
+/* Trending Now auto-scroll carousel */
+@keyframes auto-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-auto-scroll {
+  animation: auto-scroll 40s linear infinite;
+}
+
+.animate-auto-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* ═══ Eclipse Animator Roblox — eclipse night & corona gold theme ═══ */
+
+/* Display font: studio tool, future-facing */
+h1, h2, h3, .prose h2, .prose h3 {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+  letter-spacing: 0.04em;
+}
+
+/* Faint violet wash */
+body {
+  background-image:
+    radial-gradient(circle at 20% 10%, hsl(258 50% 46% / 0.04), transparent 30rem);
+}
+
+/* Eclipse night: corona ring over deep violet */
+.dark body {
+  background-image:
+    radial-gradient(ellipse 900px 480px at 50% -160px, hsl(32 84% 50% / 0.15), transparent 68%),
+    radial-gradient(ellipse 640px 380px at 88% 8%, hsl(258 60% 48% / 0.10), transparent 70%),
+    radial-gradient(ellipse 560px 360px at 6% 14%, hsl(240 40% 34% / 0.09), transparent 70%),
+    repeating-linear-gradient(64deg, transparent 0 110px, hsl(258 40% 44% / 0.03) 110px 112px);
+}
+
+/* Section headers get an eclipse sigil */
+h2::before {
+  content: "◐ ";
+  color: hsl(var(--nav-theme));
+  font-size: 0.85em;
+}
+
+/* Cards read like studio panels */
+[class*="rounded-2xl"] {
+  border-radius: 0.5rem;
+}
+.dark .card, .dark [class*="bg-card"] {
+  box-shadow: inset 0 1px 0 0 hsl(32 80% 60% / 0.07), 0 2px 16px hsl(258 20% 3% / 0.55);
+}
+
+/* Header: observatory slit with a corona seam */
+header {
+  border-bottom: 2px solid hsl(32 78% 46% / 0.5) !important;
+  box-shadow: 0 3px 16px hsl(258 50% 24% / 0.18);
+  background: linear-gradient(180deg, hsl(258 20% 10%), hsl(258 24% 5%)) !important;
+}
+
+/* Prose tables like timeline sheets */
+.prose table {
+  border-collapse: collapse;
+}
+.prose th, .prose td {
+  border: 1px solid hsl(254 16% 26% / 0.4);
+}

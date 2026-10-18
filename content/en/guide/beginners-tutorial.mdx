@@ -1,0 +1,54 @@
+export const metadata = {
+  title: "Eclipse Animator Beginner Tutorial: Your First Animation",
+  description: "A complete first animation in the Eclipse Animator Roblox plugin — keyframes, the timeline and the IK toggle, built as a walk cycle in one sitting.",
+  category: "guide",
+  date: "2026-10-16",
+};
+
+Every animation tool is learned by animating, and the fastest path into the Eclipse Animator Roblox workflow is a walk cycle — the animator's "hello world," small enough to finish in one sitting and rich enough to exercise every core mechanic the plugin offers. This tutorial builds one from scratch: posing in the viewport, laying keyframes on the timeline, and using the IK toggle both ways so its value is felt rather than explained. Budget an hour, keep Studio open beside this page, and by the end you will have shipped your first Eclipse Animator Roblox animation and internalized the workflow every feature page on this wiki assumes.
+
+## Setup: Rig and Bind
+
+Follow the setup guide's first-rig recipe if you have not already: a standard humanoid rig in your place, selected, with the plugin activated and bound. Confirm the timeline is visible, playback controls respond, and you can grab the rig's hand in the viewport and see the selection highlight. Nothing else needs configuring — the tutorial assumes stock defaults throughout, and stock defaults are the right teacher.
+
+One orientation note before the first key: walk cycles are loops, and loops reward planning. Our cycle will run one second — a natural walking cadence — with keys at four moments: contact, passing, contact (other foot), passing. Two steps, one second, loop. Holding that structure in mind, everything else in this tutorial is just execution.
+
+## Key One: Contact Pose
+
+Scrub the timeline to zero and pose the rig's contact moment — the frame where the leading foot plants. With the IK toggle off for now, rotate the hip and leg joints individually: front leg extended forward, foot flat, back leg trailing, arms opposite the legs, torso upright with a hint of forward lean. Do not aim for perfection; aim for readable. The Eclipse Animator Roblox viewport posing is direct — grab, rotate, observe — and this first pose is where your hands learn the grab cadence.
+
+When the pose reads, place a keyframe. The plugin records the posed state onto the timeline at your scrub position, and the track row for your rig now holds a key at zero. This single action — pose, key — is the atom of all animation in this tool; everything later is this, repeated with intent.
+
+## Keys Two Through Four: The Cycle
+
+Scrub to a quarter-second and pose the passing position: the planted leg vertical beneath the torso, the trailing leg lifting through, arms mid-swing. Key it. Scrub to half a second — second contact — and mirror your opening pose precisely: this frame is key one flipped left-right, the other foot now leading. Key it. Scrub to three-quarters — second passing, mirrored — and key that. Finally, copy your key-at-zero to the one-second mark so the loop closes seamlessly; the timeline's key copy operation exists for exactly this, and a walk cycle that does not loop cleanly is the classic beginner tell.
+
+Play the loop. It will be rough — first cycles always are — and the roughness is diagnostic: a limb that snaps means a missing intermediate key; a limb that drifts means two keys disagree about position; timing that feels hurried means the passing frames sit too close to the contacts. Scrub, adjust poses, re-key. This refinement loop — play, diagnose, adjust — is not a chore before the real work; in the Eclipse Animator Roblox workflow it is the real work, and the tool's responsiveness in the viewport is built for exactly this iteration speed.
+
+## The IK Toggle, Both Ways
+
+With the cycle looping respectably, the tutorial's second lesson: redo the leg work with IK on. Toggle inverse kinematics for the leg, grab the foot instead of the hip-joints, and drag it through the same contact-and-passing arc. The knee and hip solve automatically — the leg follows the foot like a puppet string. Re-key the cycle's leg tracks this way and observe two things. The poses arrive faster — one dragged foot versus three rotated joints. And the poses differ subtly — IK-solved arcs have a naturalness that hand-rotated joints approximate but rarely match.
+
+This is the moment the Eclipse Animator Roblox pitch becomes concrete. The IK toggle is not a convenience feature; it is a different way of thinking about posing, where you animate effect (where the hand goes) and the tool handles cause (how the joints get there). Professional 3D suites built this insight over decades, and the plugin imports it into Studio whole. The features page covers the system's full depth — per-limb toggles, mixed IK/FK staging — but the felt experience starts here, in your own walk cycle, with your own dragged foot.
+
+## Finishing: Polish and Export
+
+Three polish moves that separate a tutorial cycle from a portfolio cycle. **Easing**: adjust the interpolation between keys so limbs accelerate and settle rather than move linearly — human motion eases almost everywhere. **Timing asymmetry**: nudge the passing keys slightly off the quarter marks; mechanical symmetry reads robotic, and a few frames of offset restore humanity. **Secondary motion**: add subtle torso bob and head stabilization keys on their own tracks; the body's vertical rhythm sells the walk more than the legs do.
+
+When the cycle satisfies, export through the plugin's animation output to the format your project needs, and save the place. Then — genuinely — do it again from scratch, faster, without the tutorial. The second walk cycle takes twenty minutes, consolidates everything the first one taught, and starts converting the Eclipse Animator Roblox workflow from instructions into instinct. The third cycle you will animate something that is not a walk, and that is the graduation this tutorial exists for.
+
+## Common First-Cycle Mistakes, Named
+
+Every animator's first walk cycle goes wrong in the same four ways, and naming them speeds the fix. **Ground contact that floats** — feet that never quite plant read as ice-skating; check that your contact-pose feet actually reach the floor plane, and let the IK toggle help: dragging a foot to the floor with IK on solves the knee naturally. **The frozen torso** — animators concentrate on legs and forget the body has vertical rhythm; add the bob keys from the polish section and half the life appears at once. **Symmetry overdose** — perfectly mirrored left and right steps read mechanical; a few frames of timing offset and one arm held slightly different restore humanity. **Loop drift** — if the character slides position across loop iterations, your first and last keys disagree somewhere; the copy-key technique from earlier exists precisely to prevent this.
+
+The meta-lesson the mistakes teach: animation problems are almost never tool problems. The Eclipse Animator Roblox workflow gives you fast posing, IK solving and live feedback, and with those handled, the remaining distance between your cycle and a good one is entirely craft — observation of real motion, patience with iteration, and the honesty to scrub and diagnose rather than hope. That is the good news and the real work: the tool removes the friction, and what is left is you, learning to see.
+
+## The Practice Ladder After This Tutorial
+
+One tutorial does not an animator make, but one tutorial plus a deliberate practice ladder does, and the ladder is short. Cycle two: repeat tonight's walk cycle from scratch without the tutorial — twenty minutes, consolidation, and the honest measure of what stuck. Cycle three: change the character — a heavier stride, a hurried shuffle, a confident march; same mechanics, different intent, and intent is where style lives. Session three: leave walking behind — animate a wave, a jump, a look-and-point, each small and complete. By the fourth or fifth small piece, the Eclipse Animator Roblox interface will have disappeared from your attention, which is the tool's highest compliment: direct enough to become invisible.
+
+From there the wiki's remaining pages are your curriculum in whatever order your projects demand — the rigging features to deepen the IK system you now know, the animation types map to plan bigger scenes, the comparisons to settle your tool choices with facts. But all of it stands on this hour, this cycle, this foundation: one rig, four keys, both IK modes, and the discovery that the Eclipse Animator Roblox plugin is not a complicated tool being learned but a direct one being internalized. Animate the walk. Everything else follows.
+
+## Where to Go Next
+
+With the fundamentals installed, the wiki's remaining pages open in any order your projects demand. The IK and rigging feature page deepens the system you just toggled. The animation types page maps what the plugin can drive beyond character loops. The comparisons settle the Moon Animator question your forum threads are full of. And the FAQ answers the pricing and claim questions your friends will ask you when they see what you made. One hour, one walk cycle, one workflow learned — that was the deal, and the rest of the tool now opens at the pace of your curiosity.
