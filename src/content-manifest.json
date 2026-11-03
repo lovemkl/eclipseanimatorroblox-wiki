@@ -1,0 +1,397 @@
+{
+ "generatedAt": "2026-11-03T14:12:52.445Z",
+ "items": [
+  {
+   "contentType": "comparisons",
+   "slug": "vs-builtin-editor",
+   "title": "Eclipse Animator vs the Built-In Animation Editor",
+   "date": "2026-10-16",
+   "category": "comparisons",
+   "headings": [
+    {
+     "id": "what-the-built-in-editor-does-and-does-well",
+     "text": "What the Built-In Editor Does, and Does Well",
+     "level": 2
+    },
+    {
+     "id": "what-the-plugin-adds",
+     "text": "What the Plugin Adds",
+     "level": 2
+    },
+    {
+     "id": "which-tool-for-which-job",
+     "text": "Which Tool for Which Job",
+     "level": 2
+    },
+    {
+     "id": "the-cost-row-stated-fairly",
+     "text": "The Cost Row, Stated Fairly",
+     "level": 2
+    },
+    {
+     "id": "the-bottom-line",
+     "text": "The Bottom Line",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "comparisons",
+   "slug": "vs-moon-animator",
+   "title": "Eclipse Animator vs Moon Animator",
+   "date": "2026-10-16",
+   "category": "comparisons",
+   "headings": [
+    {
+     "id": "the-lineage-matters",
+     "text": "The Lineage Matters",
+     "level": 2
+    },
+    {
+     "id": "workflow-familiar-against-different",
+     "text": "Workflow: Familiar Against Different",
+     "level": 2
+    },
+    {
+     "id": "features-the-ik-question",
+     "text": "Features: The IK Question",
+     "level": 2
+    },
+    {
+     "id": "price-the-launch-story",
+     "text": "Price: The Launch Story",
+     "level": 2
+    },
+    {
+     "id": "the-recommendation",
+     "text": "The Recommendation",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "faq",
+   "slug": "faq",
+   "title": "Eclipse Animator Roblox FAQ",
+   "date": "2026-10-16",
+   "category": "faq",
+   "headings": [
+    {
+     "id": "what-is-eclipse-animator",
+     "text": "What Is Eclipse Animator?",
+     "level": 2
+    },
+    {
+     "id": "wasnt-it-free-what-happened",
+     "text": "Wasn't It Free? What Happened?",
+     "level": 2
+    },
+    {
+     "id": "i-missed-the-window-should-i-buy-it",
+     "text": "I Missed the Window. Should I Buy It?",
+     "level": 2
+    },
+    {
+     "id": "how-is-it-different-from-moon-animator",
+     "text": "How Is It Different from Moon Animator?",
+     "level": 2
+    },
+    {
+     "id": "what-can-it-actually-animate",
+     "text": "What Can It Actually Animate?",
+     "level": 2
+    },
+    {
+     "id": "where-do-i-get-it",
+     "text": "Where Do I Get It?",
+     "level": 2
+    },
+    {
+     "id": "is-it-safe-to-install",
+     "text": "Is It Safe to Install?",
+     "level": 2
+    },
+    {
+     "id": "will-the-free-window-come-back",
+     "text": "Will the Free Window Come Back?",
+     "level": 2
+    },
+    {
+     "id": "where-do-i-start-using-it",
+     "text": "Where Do I Start Using It?",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "features",
+   "slug": "animation-types",
+   "title": "Animation Types Eclipse Animator Supports",
+   "date": "2026-10-16",
+   "category": "features",
+   "headings": [
+    {
+     "id": "rigged-character-animation-the-core",
+     "text": "Rigged Character Animation: The Core",
+     "level": 2
+    },
+    {
+     "id": "multi-rig-scenes-and-cutscenes",
+     "text": "Multi-Rig Scenes and Cutscenes",
+     "level": 2
+    },
+    {
+     "id": "tween-style-and-non-rig-motion",
+     "text": "Tween-Style and Non-Rig Motion",
+     "level": 2
+    },
+    {
+     "id": "the-edge-cases-named",
+     "text": "The Edge Cases, Named",
+     "level": 2
+    },
+    {
+     "id": "the-short-version",
+     "text": "The Short Version",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "features",
+   "slug": "ik-and-rigging",
+   "title": "IK and Rigging in Eclipse Animator",
+   "date": "2026-10-16",
+   "category": "features",
+   "headings": [
+    {
+     "id": "inverse-kinematics-the-toggle-that-changes-posing",
+     "text": "Inverse Kinematics: The Toggle That Changes Posing",
+     "level": 2
+    },
+    {
+     "id": "unparenting-rigging-freedom-for-awkward-hierarchies",
+     "text": "Unparenting: Rigging Freedom for Awkward Hierarchies",
+     "level": 2
+    },
+    {
+     "id": "live-editing-choreography-while-the-timeline-plays",
+     "text": "Live Editing: Choreography While the Timeline Plays",
+     "level": 2
+    },
+    {
+     "id": "how-the-three-combine",
+     "text": "How the Three Combine",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "beginners-tutorial",
+   "title": "Eclipse Animator Beginner Tutorial: Your First Animation",
+   "date": "2026-10-16",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "setup-rig-and-bind",
+     "text": "Setup: Rig and Bind",
+     "level": 2
+    },
+    {
+     "id": "key-one-contact-pose",
+     "text": "Key One: Contact Pose",
+     "level": 2
+    },
+    {
+     "id": "keys-two-through-four-the-cycle",
+     "text": "Keys Two Through Four: The Cycle",
+     "level": 2
+    },
+    {
+     "id": "the-ik-toggle-both-ways",
+     "text": "The IK Toggle, Both Ways",
+     "level": 2
+    },
+    {
+     "id": "finishing-polish-and-export",
+     "text": "Finishing: Polish and Export",
+     "level": 2
+    },
+    {
+     "id": "common-first-cycle-mistakes-named",
+     "text": "Common First-Cycle Mistakes, Named",
+     "level": 2
+    },
+    {
+     "id": "the-practice-ladder-after-this-tutorial",
+     "text": "The Practice Ladder After This Tutorial",
+     "level": 2
+    },
+    {
+     "id": "where-to-go-next",
+     "text": "Where to Go Next",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "eclipse-animator",
+   "title": "Eclipse Animator: The Complete Guide",
+   "badge": "Start Here",
+   "date": "2026-10-17",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "who-made-it-and-why-that-matters",
+     "text": "Who Made It, and Why That Matters",
+     "level": 2
+    },
+    {
+     "id": "the-feature-set-plainly",
+     "text": "The Feature Set, Plainly",
+     "level": 2
+    },
+    {
+     "id": "the-claim-window-explained-once-more",
+     "text": "The Claim Window, Explained Once More",
+     "level": 2
+    },
+    {
+     "id": "how-eclipse-animator-fits-your-workflow",
+     "text": "How Eclipse Animator Fits Your Workflow",
+     "level": 2
+    },
+    {
+     "id": "the-competition-in-one-paragraph",
+     "text": "The Competition, In One Paragraph",
+     "level": 2
+    },
+    {
+     "id": "the-wikis-promise",
+     "text": "The Wiki's Promise",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "eclipse-animator-roblox-plugin-guide",
+   "title": "Eclipse Animator Roblox Plugin: The Complete Guide",
+   "badge": "Start Here",
+   "date": "2026-10-16",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "what-the-plugin-actually-is",
+     "text": "What the Plugin Actually Is",
+     "level": 2
+    },
+    {
+     "id": "who-made-it-and-why-it-exists",
+     "text": "Who Made It and Why It Exists",
+     "level": 2
+    },
+    {
+     "id": "the-launch-window-explained",
+     "text": "The Launch Window, Explained",
+     "level": 2
+    },
+    {
+     "id": "what-claiming-actually-means",
+     "text": "What Claiming Actually Means",
+     "level": 2
+    },
+    {
+     "id": "the-community-eruption",
+     "text": "The Community Eruption",
+     "level": 2
+    },
+    {
+     "id": "where-this-wiki-fits",
+     "text": "Where This Wiki Fits",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "how-to-get-eclipse-animator-free",
+   "title": "How to Get Eclipse Animator Free",
+   "date": "2026-10-16",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "how-the-free-claim-worked",
+     "text": "How the Free Claim Worked",
+     "level": 2
+    },
+    {
+     "id": "what-claiming-actually-does-to-your-account",
+     "text": "What Claiming Actually Does to Your Account",
+     "level": 2
+    },
+    {
+     "id": "what-the-paid-only-switch-changed",
+     "text": "What the Paid-Only Switch Changed",
+     "level": 2
+    },
+    {
+     "id": "if-you-missed-the-window-your-options",
+     "text": "If You Missed the Window: Your Options",
+     "level": 2
+    },
+    {
+     "id": "the-community-ledger-after-the-window",
+     "text": "The Community Ledger, After the Window",
+     "level": 2
+    },
+    {
+     "id": "the-closing-thought-for-the-deciding-the-launch-window-rewarded-exactly-one-behavior-showing-up-and-clicking-and-the-community-turned-out-in-numbers-that-surprised-even-the-coverage-the-next-such-window-on-this-platform-may-be-for-a-different-tool-and-the-lesson-of-this-one-transfers-the-roblox-dev-community-watches-its-tooling-closely-moves-fast-when-generosity-has-a-deadline-and-documents-everything-this-wiki-is-part-of-that-documentation-claim-wisely-buy-knowingly-and-animate-regardless-the-tools-are-means-and-the-walk-cycle-at-the-end-of-the-beginner-tutorial-is-the-end",
+     "text": "The Closing Thought for the Deciding The launch window rewarded exactly one behavior — showing up and clicking — and the community turned out in numbers that surprised even the coverage. The next such window on this platform may be for a different tool, and the lesson of this one transfers: the Roblox dev community watches its tooling closely, moves fast when generosity has a deadline, and documents everything. This wiki is part of that documentation. Claim wisely, buy knowingly, and animate regardless — the tools are means, and the walk cycle at the end of the beginner tutorial is the end.",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "install-and-setup",
+   "title": "Eclipse Animator Install and Setup",
+   "date": "2026-10-16",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "the-install-start-to-finish",
+     "text": "The Install, Start to Finish",
+     "level": 2
+    },
+    {
+     "id": "the-interface-tour",
+     "text": "The Interface Tour",
+     "level": 2
+    },
+    {
+     "id": "loading-your-first-rig",
+     "text": "Loading Your First Rig",
+     "level": 2
+    },
+    {
+     "id": "first-session-settings-worth-checking",
+     "text": "First-Session Settings Worth Checking",
+     "level": 2
+    },
+    {
+     "id": "troubleshooting-the-first-session",
+     "text": "Troubleshooting the First Session",
+     "level": 2
+    },
+    {
+     "id": "your-first-hour-structured",
+     "text": "Your First Hour, Structured",
+     "level": 2
+    }
+   ]
+  }
+ ]
+}
